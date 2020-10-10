@@ -4,7 +4,7 @@ import sound1 from './audioClip/1.mp3';
 import {Howl, Howler} from 'howler';
 
 const audioClip = [
-  {sound: sound1, label: 'Reena'}
+  {sound: sound1, label: 'Done'}
 ]
 
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
   }
 
   render() {
-    Howler.volume(1.0)
+    Howler.volume(1.2)
     return <div className="App">
       {this.RenderButtonAndSound()}
     </div>;
